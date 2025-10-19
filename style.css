@@ -1,0 +1,63 @@
+ body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #96da96;
+    border-radius: 8px;
+    background-color: #99098d;
+}
+.input-container {
+    margin-bottom: 20px;
+}
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    width: 200px;
+    color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 4px;     
+
+}
+button {
+    padding: 8px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+    color: #187092;
+    background-color: #46ac92;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#fruitList {
+    list-style-type: none;
+    padding: 0;
+    
+}
+#fruitList li {
+    padding: 8px;
+    margin: 5px 0;
+    background-color: #49a898;
+    border-radius: 4px;
+
+}
+.starts-with-a {
+    background-color: #f1da07 !important;
+}
+
+/* styling fectching division */
+.fetching {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+/* .user-data {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+} */

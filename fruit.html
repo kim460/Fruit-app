@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fruit List Manager</title>
+</head>
+<body>
+    <h1>Fruit List Manager</h1>
+    <p>Enter the name of a fruit and click "Add Fruit" to add it to the list. Fruits starting with 'A' will be highlighted.</p>
+    <div class="input-container">
+        <input type="text" id="fruitInput" placeholder="e.g. Apple, Banana, Mango">
+        <button onclick="addFruit()">Add Fruit</button>
+        <button onclick="clearFruits()">Clear All</button>
+    </div>
+
+    <ul id="fruitList"></ul>
+
+    <div class="fetching">
+        <button onclick="fetchUsers()">Fetch Users from API</button>
+        <div id="loading" style="display:none;">Loading...</div>
+        <div id="userList"></div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
+
+<!-- My api key: 55c75c3b6376457b9bb122956251910 -->
+ <!-- My url Key: https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city} -->
